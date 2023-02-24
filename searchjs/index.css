@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    padding: 2rem 15rem;
+}
+ 
+h1{
+    font-family: cursive;
+    font-size: 4em;
+
+ }
+
+ input{
+    border: 1px solid #e2dfe5;
+    border-radius: 24px;
+
+    width: 300px;
+    height: 30px;
+
+    padding: 15px;
+    margin-bottom: 42px;
+
+    font-size: 10px;
+    text-align: center;
+    
+ }
+
+ /* input: focus = action after click a the box */
+ input:focus{
+    outline: none;
+    background-color: rgb(227, 184, 120);
+ }
